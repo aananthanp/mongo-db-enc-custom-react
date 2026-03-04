@@ -8,7 +8,7 @@ import org.springframework.data.mongodb.core.mapping.event.AbstractMongoEventLis
 import org.springframework.data.mongodb.core.mapping.event.AfterConvertEvent;
 import org.springframework.data.mongodb.core.mapping.event.BeforeConvertEvent;
 
-@Configuration
+/*@Configuration*/
 public class MongoEncryptionListener extends AbstractMongoEventListener<FailedMessageDoc> {
 
     @Value("${app.encryption.secret}")
